@@ -1,0 +1,28 @@
+.A {
+    font-family:serif;
+    font-weight: bold;
+}
+
+.B {
+    align-items: center;
+    gap: 30px;
+    border: 2px solid rgb(41, 151, 241) ;
+    border-radius: 20px;
+}
+
+#b {
+    width: 400px;
+    height: 100px;
+}
+
+.S{
+    color: black;
+    background-color: rgb(18, 204, 18);
+    border-radius: 10px;
+    padding: 3px 7px;
+}
+
+.S:hover{
+    color:rgb(255, 255, 255) ;
+    background-color: rgb(4, 195, 7);
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;}
+
+.main{
+    width: 100%;
+    background: url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;}
+
+.navbar{
+    width: 1500px;
+    height: 70px;
+    background-color: rgb(65, 65, 65); }
+.logo{
+    color:#ff9010;
+    font-size: 50px;
+    font-family: serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    width: 400px;
+    height: 70px;
+    margin-left: 3%;} 
+.menu{
+    width: 330px; 
+    float: left;
+    height: 70px;}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+ul li{
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 62px;
+    font-size: 14px;}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;}
+ul li a:hover{
+    color: #ff9010;}
+.search{
+    width: 400px;
+    float: right;}
+.srch{
+    font-family: serif;
+    width: 220px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff9010;
+    margin-top: 16px;
+    color: #ffffff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 12px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;}
+.srch:focus{
+    outline: none;}
+.bot{
+    width: 100px;
+    height: 40px;
+    background: #ff9010;
+    border: 4px solid #ff9010;
+    margin-top: 16px;
+    color: #ffffff;
+    font-size: 16px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;} 
+.bot:focus{
+    outline: none;}
+
+.content{
+    width: 1200px;
+    height: 300px;
+    margin: 7%;
+    color: #000000;
+    position: relative;}
+.content .P{
+    padding-left: 10px;
+    padding-bottom: 25px;
+    font-family: serif;
+    font-size: 29px;
+    letter-spacing: 1.5px;
+    line-height: 30px;}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 45px;
+    padding-left: 1px;
+    margin-top: 3.5%;
+    letter-spacing: 2px;}
+
+.Products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 3%;
+    background-color: #ffffff;}
+    
+
+.item img {
+    width: 70%;
+    height: 70%;}
+.item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    font-size: medium;}

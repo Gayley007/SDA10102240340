@@ -1,0 +1,33 @@
+ul.a {
+    list-style-type: square;
+}
+ul.b {
+    list-style-type: disc;
+}
+ul.c {
+    list-style-type: square;
+}
+ul.d {
+    list-style-type: disc;
+}
+ul.e {
+    list-style-type: square;
+}
+#bot {
+    color: rgb(147, 97, 16);
+}
+.a:hover {
+    color:rgb(182, 134, 231)
+}
+.b:hover {
+    color:rgb(90, 177, 83)
+}
+.c:hover {
+    color:rgb(247, 210, 64)
+}
+.d:hover {
+    color:rgb(253, 62, 62)
+}
+.e:hover {
+    color:rgb(92, 190, 197)
+}
