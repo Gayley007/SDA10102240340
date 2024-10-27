@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    background-color: #6e8654;
+    padding: 15px;
+    text-align: right;
+}
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #e7f2e1;
+    font-size: large;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 770px;
+    background-image: url(background.jpg);
+}
+div .profile-container{
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    margin: 100px;
+}
+.profile-container {
+    display: flex;
+    background-color: #f0fbe6;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 700px;
+    width: 1400px;
+    border-style: solid;
+}
+.profile-image img {
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-top: 20%;
+}
+
+.profile-text {
+    width: 60%;
+    margin-top: 20px;
+}
+.first {
+    height: 50%;
+    margin-top: 7%;
+}
+
+.description {
+    height: 50%;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: Acme;
+}
+.name-highlight {
+    color: #6e77ca;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.glitch {
+    font-size: 50px;
+    font-family: Monofett;
+    font-weight: bold;
+    color: #193D02;
+    position: relative;
+    text-transform: uppercase;
+}
+.name{
+    font-family: 'The Lemonade', sans-serif;
+}
+.student-title {
+    background-color: #c7d7b5;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 20px;
+    color: #000;
+    margin-top: 20px;
+}
+
+
