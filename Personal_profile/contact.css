@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #D8E0C7;
+}
+
+.navbar {
+    background-color: #6e8654;
+    padding: 8px;
+}
+.header {
+    color: #e7f2e1;
+    font-size: 38px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -1%;
+    font-family: Kranky;
+}
+
+.container {
+    width: 400px;
+    background-color: #EEF6E8;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+}
+
+.header {
+    background-color: #4E6D47;
+    color: #FFFFFF;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Cursive';
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    color: #333;
+    text-align: left;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.socials {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.socials img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.star {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #F1C40F;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #4E6D47;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}

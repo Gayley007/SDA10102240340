@@ -37,26 +37,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 20px;
+    padding: 50px;
+    height: 770px;
+    background-image: url(background.jpg);
 }
 .box {
     background-color: #e6f2d9;
     border: 2px solid #4a5a3c;
     border-radius: 10px;
     width: 40%;
-    margin: 10px;
+    margin: 28px;
+    height: 600px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .box h2 {
     text-align: center;
     color: #4a5a3c;
-    font-size: 24px;
+    font-size: 34px;
 }
 .item {
     display: flex;
     align-items: center;
-    margin: 10px 0;
+    margin: 45px 0;
 }
 .item i {
     color: #4a5a3c;
@@ -64,23 +67,23 @@ body {
 }
 .item p {
     margin: 0;
-    font-size: 18px;
+    font-size: 28px;
 }
 .item span {
     display: block;
-    font-size: 14px;
+    font-size: 24px;
     color: #4a5a3c;
 }
 .decoration {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 120px;
 }
 .decoration.top-left {
     top: 100px;
-    left: 50px;
+    left: 100px;
 }
 .decoration.bottom-right {
-    bottom: 100px;
-    right: 50px;
+    bottom: 10px;
+    right: 80px;
 }
