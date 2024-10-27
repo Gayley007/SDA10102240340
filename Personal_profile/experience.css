@@ -68,11 +68,16 @@ body {
 .item p {
     margin: 0;
     font-size: 28px;
+    font-family:Acme;
 }
 .item span {
     display: block;
     font-size: 24px;
     color: #4a5a3c;
+}
+.item a{
+    text-decoration: none;
+    color:black;
 }
 .decoration {
     position: absolute;
