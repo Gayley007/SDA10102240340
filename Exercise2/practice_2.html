@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="Practice.css">
+</head>
+<body>
+    <user-profile style="display: block; margin: 10px;" name="Gayley Choden" role="Student"></user-profile>
+
+    <script>
+        class UserProfile extends HTMLElement {
+            constructor() {
+                super();
+                this.attachShadow({ mode: 'open' });
+                const template = document.createElement('template');
+                template.innerHTML = `
+                    <link rel="stylesheet" href="Practice.css">
+                    <div class="card">
+                        <div class="name"></div>
+                        <div class="role"></div>
+                    </div>
+                `;
+                this.shadowRoot.appendChild(template.content.cloneNode(true));
+                this.shadowRoot.querySelector('.name').textContent = this.getAttribute('name');
+                this.shadowRoot.querySelector('.role').textContent = this.getAttribute('role');
+            }
+        }
+        customElements.define('user-profile', UserProfile);
+    </script>
+
+</body>
+</html>

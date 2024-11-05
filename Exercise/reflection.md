@@ -1,7 +1,3 @@
-- Describe the main concepts you applied.
-- Discuss new skills or knowledge acquired.
-- Discuss what you learned.
-- Mention any challenges you faced and how you overcame
 
 # EXERCISE 1
  ## Describe thain concepts you applied.
